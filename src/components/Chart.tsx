@@ -35,7 +35,7 @@ interface ChartProps {
 
 const Chart: React.FC<ChartProps> = ({ type, data, options = {} }) => {
   const defaultOptions = {
-    responsive: true,
+    responsive: true, 
     maintainAspectRatio: false,
     plugins: {
       legend: {
